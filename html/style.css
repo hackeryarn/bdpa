@@ -1,0 +1,49 @@
+body {
+  background: #ddd;
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  margin: auto;
+}
+
+.header {
+  font-size: 20px;
+  border-bottom: 1px black solid;
+  height: 100px;
+  padding: 10px;
+}
+
+.header img {
+  height: 100px;
+  float: left;
+}
+
+.header p {
+  float: right;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0;
+  padding-right: 0;
+  background: #333;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+.nav li a:hover {
+  color: green;
+}
